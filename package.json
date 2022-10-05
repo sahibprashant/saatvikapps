@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "http://saatvikapps.in",
+  "homepage": "https://saatvikapps.in",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
