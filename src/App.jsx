@@ -15,7 +15,7 @@ import '../src/assets/fonts/Poppins-Bold.ttf';
 function App() {
 
   return (
-    <Router basename={'/saatvikapps'}>
+    <Router basename={'/'}>
       <div className="App">
         <Routes>
           <Route path='/' element = {<Home />}/>
