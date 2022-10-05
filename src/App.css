@@ -1,0 +1,22 @@
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  color: #dadada;
+  font-family: 'regular';
+}
+
+@font-face {
+  font-family: 'regular';
+  src: local('Poppins-Regular'), url(./assets/fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'medium';
+  src: local('Poppins-Medium'), url(./assets/fonts/Poppins-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'bold';
+  src: local('Poppins-Bold'), url(./assets/fonts/Poppins-Bold.ttf) format('truetype');
+}

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  display: flex;
+  font-size: 15px;
+}
+
+a {
+  color: #dadada;;
+  text-decoration: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #e4aa48;
+}

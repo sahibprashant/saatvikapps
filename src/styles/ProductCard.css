@@ -1,0 +1,189 @@
+.productContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 350px;
+    max-width: 350px;
+    background-color: #2E2E35;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #1d1d24;
+    overflow: hidden;
+    cursor: pointer;
+}
+.productContainer:hover{
+    box-shadow: 15px 15px 15px #1d1d24;
+}
+
+.productContainer > img{
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 180px;
+    max-height: 180px;
+}
+.productContainer > h1{
+    font-family: 'medium';
+    font-size: 16px;
+    font-weight: 300;
+    color: #d69a34;
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.productContainer > p{
+    flex: 1;
+    font-family: 'regular';
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: start;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-lines: 10;
+}
+
+.productPuttons > div{   
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.productPuttons>div>button{
+    border-radius: 50px;
+    border-width: 0px;
+    height: 40px;
+    width: 120px;
+    font-family: 'regular';
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+.productPuttons>div>button:hover{
+    background-color: white;
+    color: teal;
+}
+
+.productPuttons>div>button>a{
+    border-radius: 50px;
+    border-width: 0px;
+    height: 40px;
+    width: 120px;
+    font-family: 'regular';
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+.productPuttons>div>button>a:hover{
+    background-color: white;
+    color: teal;
+}
+
+
+/**
+mobile device css
+*/
+/**
+mobile device css
+*/
+
+.productContainer-mobile{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 280px;
+    max-width: 280px;
+    background-color: #2E2E35;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px #1d1d24;
+    overflow: hidden;
+    cursor: pointer;
+}
+.productContainer-mobile:hover{
+    box-shadow: 12px 12px 12px #1d1d24;
+}
+
+.productContainer-mobile > img{
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    min-width: 280px;
+    max-width: 280px;
+    min-height: 135px;
+    max-height: 135px;
+}
+.productContainer-mobile > h1{
+    font-family: 'medium';
+    font-size: 16px;
+    font-weight: 300;
+    color: #d69a34;
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.productContainer-mobile > p{
+    flex: 1;
+    font-family: 'regular';
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: start;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-lines: 10;
+}
+
+.productPuttons-mobile > div{   
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.productPuttons-mobile>div>button{
+    border-radius: 50px;
+    border-width: 0px;
+    height: 40px;
+    width: 120px;
+    font-family: 'regular';
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+.productPuttons-mobile>div>button:hover{
+    background-color: white;
+    color: teal;
+}
+
+.productPuttons-mobile>div>button>a{
+    border-radius: 50px;
+    border-width: 0px;
+    height: 40px;
+    width: 120px;
+    font-family: 'regular';
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+.productPuttons-mobile>div>button>a:hover{
+    background-color: white;
+    color: teal;
+}
