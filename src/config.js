@@ -1,9 +1,8 @@
 import saatvikapp from '../src/assets/worksnaps/saatvikapp.jpg';
 import carrykar1 from '../src/assets/worksnaps/carrykar1.png';
-import carrykar2 from '../src/assets/worksnaps/carrykar2.jpg';
-import carrykar3 from '../src/assets/worksnaps/carrykar3.jpg';
-import carrykar4 from '../src/assets/worksnaps/carrykar4.jpg';
 import carrykar5 from '../src/assets/worksnaps/carrykar5.png';
+import carrykarweb1 from '../src/assets/worksnaps/carrykarweb1.png';
+import carrykarweb2 from '../src/assets/worksnaps/carrykarweb2.png';
 import globaldreams1 from '../src/assets/worksnaps/globaldreams1.png';
 import globaldreams2 from '../src/assets/worksnaps/globaldreams2.png';
 import musicapp1 from '../src/assets/worksnaps/musicapp1.png';
@@ -85,6 +84,17 @@ const config = {
             width: 900,
             height: 1600
         },
+        {
+            src: carrykarweb1,
+            width: 1600,
+            height: 900
+        },
+        {
+            src: carrykarweb2,
+            width: 1600,
+            height: 900
+        },
+        
     ],
     products: 'Want to Develop your Own Product!',
     products_desc: 'You have idea and want to develop a Mobile Application or Website for it, but dont know where to start, how long it will take and how much it will cost? Dont worry we will answer all your queries and will develop a product in your budget value in minimum time, finally we will devliver you a desired product for your business/startup. <b>Our past experience of developing Software Products for Startups/Companies and our own enthusiasm for our work delivers a great satisfactory results to our clients.<b>',
