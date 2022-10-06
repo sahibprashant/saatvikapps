@@ -151,6 +151,12 @@ b {
     margin-top: 80px;
 }
 
+.contact-us-text{
+    font-size: 13px;
+    margin-top: 70px;
+    color: #fcc362;
+}
+
 .contactButton {
     background-color: #e4aa48;
     color: #2E2E35;
@@ -196,7 +202,7 @@ b {
     margin: 0
 }
 
-.products {
+.offers {
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -383,7 +389,7 @@ b {
 }
 
 
-.products-mobile {
+.offers-mobile {
     display: flex;
     flex: 1;
     flex-direction: row;

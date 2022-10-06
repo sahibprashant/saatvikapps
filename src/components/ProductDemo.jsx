@@ -13,7 +13,7 @@ const ProductDemo = () => {
     return (<div >
         <p style={{color : 'teal', marginLeft : '10px', marginRight : '10px', fontSize : '13px', fontFamily : 'regular'}}>This is a demo website page. Actual website will response to mobile & desktop size and will have different design and content as per requirement.</p>
         
-        <img style={{width: '100%'}} src={config.products_list[blogData.id - 1].demo_images[0]} />
+        <img style={{width: '100%'}} src={config.offers_list[blogData.id - 1].demo_images[0]} />
     </div>)
 }
 

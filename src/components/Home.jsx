@@ -29,7 +29,7 @@ function Home() {
     const [index, setIndex] = useState(-1);
     const aboutRef = useRef(null);
     const workRef = useRef(null);
-    const productRef = useRef(null);
+    const offersRef = useRef(null);
     const contactRef = useRef(null);
     const topRef = useRef(null);
 
@@ -41,8 +41,8 @@ function Home() {
         workRef.current?.scrollIntoView({ behavior: 'smooth' })
     }
 
-    const moveToProducts = () => {
-        productRef.current?.scrollIntoView({ behavior: 'smooth' })
+    const moveToOffers = () => {
+        offersRef.current?.scrollIntoView({ behavior: 'smooth' })
     }
 
     const moveToContact = () => {
@@ -66,7 +66,7 @@ function Home() {
                     <a id="work" style={{
                         display: isTabletOrMobile ? 'none' : 'block'
                     }} onClick={moveToWork}>Work</a>
-                    <a id="products" onClick={moveToProducts}>Products</a>
+                    <a id="offers" onClick={moveToOffers}>Offers</a>
                     <a id="contacts" style={{
                         display: isTabletOrMobile ? 'none' : 'block'
                     }} onClick={moveToContact}>Contacts</a>
@@ -123,13 +123,13 @@ function Home() {
                     />
                 </div>
             </div>
-            <div ref={productRef} className={`section${isTabletOrMobile ? '-mobile' : ''}`} style={{ backgroundColor: config.primaryColorDark }}>
-                <p className={`heading-small${isTabletOrMobile ? '-mobile' : ''}`}>Products</p>
-                <p className={`section-main-text${isTabletOrMobile ? '-mobile' : ''}`}>{config.products}</p>
+            <div className={`section${isTabletOrMobile ? '-mobile' : ''}`} style={{ backgroundColor: config.primaryColor }}>
+                {/* <p className={`heading-small${isTabletOrMobile ? '-mobile' : ''}`}></p> */}
+                <p className={`section-main-text${isTabletOrMobile ? '-mobile' : ''}`} style = {{color : config.yellow, fontSize : '25px'}}>{config.products}</p>
                 <div className={`section-sub${isTabletOrMobile ? '-mobile' : ''}`}>
                     <p dangerouslySetInnerHTML={{ __html: config.products_desc }}></p>
                 </div>
-                <div className={`products${isTabletOrMobile ? '-mobile' : ''}`}>
+                <div className={`offers${isTabletOrMobile ? '-mobile' : ''}`}>
                     {
                         config.products_list.map((value, index) => {
                             return (
@@ -138,6 +138,29 @@ function Home() {
                                     value={value}
                                     isTabletOrMobile={isTabletOrMobile}
                                     handleBuyClick={() => { moveToContact() }}
+                                    type = {config.product_type}
+                                />)
+                        })
+                    }
+                </div>
+                <p className={`contact-us-text${isTabletOrMobile ? '-mobile' : ''}`}>Note: Contact us to know more about the time estimation of development and development costing of your product/idea.</p>
+            </div>
+            <div ref={offersRef} className={`section${isTabletOrMobile ? '-mobile' : ''}`} style={{ backgroundColor: config.primaryColorDark }}>
+                <p className={`heading-small${isTabletOrMobile ? '-mobile' : ''}`}>Offers for You</p>
+                <p className={`section-main-text${isTabletOrMobile ? '-mobile' : ''}`}>{config.offers}</p>
+                <div className={`section-sub${isTabletOrMobile ? '-mobile' : ''}`}>
+                    <p dangerouslySetInnerHTML={{ __html: config.offers_desc }}></p>
+                </div>
+                <div className={`offers${isTabletOrMobile ? '-mobile' : ''}`}>
+                    {
+                        config.offers_list.map((value, index) => {
+                            return (
+                                <ProductCard
+                                    key={index}
+                                    value={value}
+                                    isTabletOrMobile={isTabletOrMobile}
+                                    handleBuyClick={() => { moveToContact() }}
+                                    type = {config.offer_type}
                                 />)
                         })
                     }

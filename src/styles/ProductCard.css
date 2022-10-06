@@ -22,17 +22,23 @@
     border-top-right-radius: 20px;
     min-width: 350px;
     max-width: 350px;
-    min-height: 180px;
-    max-height: 180px;
+    min-height: 190px;
+    max-height: 190px;
 }
 .productContainer > h1{
-    font-family: 'medium';
+    font-family: 'bold';
     font-size: 16px;
-    font-weight: 300;
     color: #d69a34;
     text-align: start;
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 25px;
+}
+
+.productPrice {
+    text-align: start;
+    margin-left: 30px;
+    font-size: 13px;
+    font-family: 'medium';
 }
 
 .productContainer > p{
@@ -48,7 +54,7 @@
     max-lines: 10;
 }
 
-.productPuttons > div{   
+.productButtons > div{   
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -57,7 +63,7 @@
     margin-bottom: 20px;
 }
 
-.productPuttons>div>button{
+.productButtons>div>button{
     border-radius: 50px;
     border-width: 0px;
     height: 40px;
@@ -68,12 +74,12 @@
     cursor: pointer;
 }
 
-.productPuttons>div>button:hover{
+.productButtons>div>button:hover{
     background-color: white;
     color: teal;
 }
 
-.productPuttons>div>button>a{
+.productButtons>div>button>a{
     border-radius: 50px;
     border-width: 0px;
     height: 40px;
@@ -84,7 +90,7 @@
     cursor: pointer;
 }
 
-.productPuttons>div>button>a:hover{
+.productButtons>div>button>a:hover{
     background-color: white;
     color: teal;
 }
@@ -121,17 +127,23 @@ mobile device css
     border-top-right-radius: 20px;
     min-width: 280px;
     max-width: 280px;
-    min-height: 135px;
-    max-height: 135px;
+    min-height: 140px;
+    max-height: 140px;
 }
 .productContainer-mobile > h1{
-    font-family: 'medium';
+    font-family: 'bold';
     font-size: 16px;
-    font-weight: 300;
     color: #d69a34;
     text-align: start;
     margin-left: 30px;
     margin-top: 20px;
+}
+
+.productPrice-mobile {
+    text-align: start;
+    margin-left: 30px;
+    font-size: 12px;
+    font-family: 'medium';
 }
 
 .productContainer-mobile > p{
@@ -147,7 +159,7 @@ mobile device css
     max-lines: 10;
 }
 
-.productPuttons-mobile > div{   
+.productButtons-mobile > div{   
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -156,7 +168,7 @@ mobile device css
     margin-bottom: 20px;
 }
 
-.productPuttons-mobile>div>button{
+.productButtons-mobile>div>button{
     border-radius: 50px;
     border-width: 0px;
     height: 40px;
@@ -167,12 +179,12 @@ mobile device css
     cursor: pointer;
 }
 
-.productPuttons-mobile>div>button:hover{
+.productButtons-mobile>div>button:hover{
     background-color: white;
     color: teal;
 }
 
-.productPuttons-mobile>div>button>a{
+.productButtons-mobile>div>button>a{
     border-radius: 50px;
     border-width: 0px;
     height: 40px;
@@ -183,7 +195,7 @@ mobile device css
     cursor: pointer;
 }
 
-.productPuttons-mobile>div>button>a:hover{
+.productButtons-mobile>div>button>a:hover{
     background-color: white;
     color: teal;
 }
