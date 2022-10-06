@@ -389,6 +389,13 @@ b {
 }
 
 
+.contact-us-text-mobile{
+    font-size: 10px;
+    margin-top: 25px;
+    color: #fcc362;
+}
+
+
 .offers-mobile {
     display: flex;
     flex: 1;
