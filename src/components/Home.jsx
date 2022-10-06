@@ -108,7 +108,7 @@ function Home() {
                 </div>
                 <div className={`workGallery${isTabletOrMobile ? '-mobile' : ''}`}>
                     <PhotoAlbum
-                        layout="columns"
+                        layout="rows"
                         photos={config.workImages}
                         spacing={10}
                         onClick={(event, photo, index) => setIndex(index)}

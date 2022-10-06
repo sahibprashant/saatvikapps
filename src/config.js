@@ -1,6 +1,9 @@
+import saatvikapp from '../src/assets/worksnaps/saatvikapp.jpg';
 import carrykar1 from '../src/assets/worksnaps/carrykar1.png';
-import carrykar2 from '../src/assets/worksnaps/carrykar2.png';
-import carrykar3 from '../src/assets/worksnaps/carrykar3.png';
+import carrykar2 from '../src/assets/worksnaps/carrykar2.jpg';
+import carrykar3 from '../src/assets/worksnaps/carrykar3.jpg';
+import carrykar4 from '../src/assets/worksnaps/carrykar4.jpg';
+import carrykar5 from '../src/assets/worksnaps/carrykar5.png';
 import globaldreams1 from '../src/assets/worksnaps/globaldreams1.png';
 import globaldreams2 from '../src/assets/worksnaps/globaldreams2.png';
 import musicapp1 from '../src/assets/worksnaps/musicapp1.png';
@@ -51,21 +54,7 @@ const config = {
             width: 1600,
             height: 900,
         },
-        {
-            src: carrykar1,
-            width: 900,
-            height: 900
-        },
-        {
-            src: carrykar2,
-            width: 900,
-            height: 900
-        },
-        {
-            src: carrykar3,
-            width: 900,
-            height: 900,
-        },
+        
         {
             src: musicapp1,
             width: 900,
@@ -75,6 +64,21 @@ const config = {
             src: musicapp2,
             width: 900,
             height: 1600
+        },
+        {
+            src: carrykar1,
+            width: 900,
+            height: 900,
+        },
+        {
+            src: carrykar5,
+            width: 900,
+            height: 900
+        },
+        {
+            src: saatvikapp,
+            width: 1600,
+            height: 900,
         },
         {
             src: musicapp3,
@@ -91,7 +95,7 @@ const config = {
             header_img: appdevcover,
             description: 'Want to develop a sclable and fully functional Mobile Android/IOS or Hybrid application for your startup/business. We will develop it for you in latest technologies available in the market. Developing a Attractive Design as per requirements, Qualtiy Code and Smooth functioning accross all the devices will be our part of work.',
             price: "15k - 5L",
-            tags : 'Android, IOS, HYBRID, React Native, Native Android Apps, Desktop Apps'
+            tags: 'Android, IOS, HYBRID, React Native, Native Android Apps, Desktop Apps'
         },
         {
             id: 2,
@@ -99,7 +103,7 @@ const config = {
             header_img: webdevcover,
             description: 'Want to develop a fully functional responsive & attractive Website/WebApp for your business/startup. Single Page Sites, Landing Pages, Personal Portfolios, Large Scale Websites, Payment Sites, etc we serve almost all categories of requirements. We together will develop a right product according to your needs.',
             price: "10k - 5L",
-            tags : 'Website, Responsive WebApp, ReactJs, WebHosting, Cloud Storage, Database'
+            tags: 'Website, Responsive WebApp, ReactJs, WebHosting, Cloud Storage, Database'
         },
     ],
     offers: 'Ready to serve Projects',
@@ -188,8 +192,8 @@ const config = {
     primaryColorDark: '#2B2B34',
     yellow: '#d69a34',
     textColor: '#dadada',
-    offer_type : 'OFFER_TYPE',
-    product_type : 'PRODUCT_TYPE',
+    offer_type: 'OFFER_TYPE',
+    product_type: 'PRODUCT_TYPE',
 }
 
 export default config
