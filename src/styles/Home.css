@@ -254,9 +254,17 @@ b {
     background-color: #e4aa48;
 }
 
+.address > p > b{
+    font-family: 'medium';
+}
+
+.address-full {
+    padding-bottom: 40px;
+}
+
 .copyright {
     flex: 1;
-    text-align: center
+    text-align: center;
 }
 
 /* mobile device css*/
@@ -514,4 +522,9 @@ b {
     flex: 1;
     text-align: center;
     font-size: 10px;
+}
+
+
+.address-mobile > p {
+    font-size: 12px;
 }

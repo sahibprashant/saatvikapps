@@ -13,6 +13,7 @@ import personalsite from '../src/assets/personalsite.jpg';
 import flatpg from '../src/assets/flatpg.png';
 import workinfo from '../src/assets/workinfo.png';
 import interior from '../src/assets/interior.png';
+import shop99 from '../src/assets/shop99.png';
 import appdevcover from '../src/assets/appdevcover.jpg';
 import webdevcover from '../src/assets/webdevcover.jpg';
 
@@ -124,53 +125,53 @@ const config = {
             name: 'Google Business Listing',
             header_img: googlebusiness,
             description: 'You run a business or have store, list it on Google!! People can find you then through Google Search as well, its a best and simple way to promote your business globally and reach more customers.',
-            price: 2000,
+            price: 1999,
             demo_images: [demo_personalsite],
         },
         {
             id: 2,
-            name: 'PG/Flats on Rent-WebApp',
-            header_img: flatpg,
-            description: 'You run PG/Flats business? Create a website for your work, list all the PGs, Flats, and Properties availble at one place and promote your business easily. You can create your own traffic by sharing your site to your customers. Give your business a professional look!',
-            price: 8500,
-            demo_images: [demo_flatpg2, demo_flatpg1],
-        },
-        {
-            id: 3,
-            name: 'Interior Designer-WebApp',
-            header_img: interior,
-            description: 'Give your work a digital perssence. List the design offers, prices & offers on your website and get customers online.',
-            price: 8500,
-            demo_images: [demo_interior2, demo_interior1],
-        },
-        {
-            id: 4,
             name: 'Personal Website/Portfolio',
             header_img: personalsite,
             description: 'With your Personal Website you can showcase yourself and skills which you have. Simply share your site with people or HR at companies to grab information about you and your work as well.',
-            price: 3000,
+            price: 1999,
             demo_images: [demo_personalsite],
+        },
+        {
+            id: 3,
+            name: 'PG/Flats on Rent-WebApp',
+            header_img: flatpg,
+            description: 'You run PG/Flats business? Create a website for your work, list all the PGs, Flats, and Properties availble at one place and promote your business easily. You can create your own traffic by sharing your site to your customers. Give your business a professional look!',
+            price: 4999,
+            demo_images: [demo_flatpg2, demo_flatpg1],
+        },
+        {
+            id: 4,
+            name: 'Interior Designer-WebApp',
+            header_img: interior,
+            description: 'Give your work a digital perssence. List the design offers, prices & offers on your website and get customers online.',
+            price: 4999,
+            demo_images: [demo_interior2, demo_interior1],
         },
         {
             id: 5,
             name: 'Business Information-WebApp',
             header_img: workinfo,
             description: 'Single Page Websites are very useful for business as it gives your work a digital pressence, list the services which you provides and other important business related information at one place.',
-            price: 8500,
+            price: 4999,
             demo_images: [demo_otherwork1, demo_otherwork2],
         },
-        // {
-        //     id : 5,
-        //     name : 'Food-Store WebApp',
-        //     header_img : musicapp1,
-        //     description : 'Give your restuarent or food-store a digital perssence. List the food offers, prices & offers on your website and get food orders from customers online.',
-        //     price : 8500,
-        //     demo_images : demo_interior2,
-        // },
+        {
+            id: 6,
+            name: 'Shop@99-WebApp',
+            header_img: shop99,
+            description: 'Single Page WebApp for your Store, list all your items at one place and receive online orders from customers, also send them notifications about your new offers.',
+            price: 4999,
+            demo_images: [demo_otherwork1, demo_otherwork2],
+        },
     ],
     contact: 'Ways to Contact Us',
     contact_me_desc: 'You can reach us by any means mentioned below, we are always ready to serve our clients. Feel free to contact us anytime!',
-    contact_mail: 'sahibprashant@gmail.com',
+    contact_mail: 'contact@saatvikapps.in',
     contact_number: '+91-7734085350',
     contact_profiles: {
         fiverr: {
@@ -198,6 +199,7 @@ const config = {
             enable: false,
         }
     },
+    address : 'Top Floor, Pitruchaya Building</br>Opposite to Bank of Baroda Fatehpura Branch</br>Fatehpura, Paldi - 380007</br>Ahemdabad Gujarat(India)',
     primaryColor: '#2E2E35',
     primaryColorDark: '#2B2B34',
     yellow: '#d69a34',

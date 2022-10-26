@@ -125,7 +125,7 @@ function Home() {
             </div>
             <div className={`section${isTabletOrMobile ? '-mobile' : ''}`} style={{ backgroundColor: config.primaryColor }}>
                 {/* <p className={`heading-small${isTabletOrMobile ? '-mobile' : ''}`}></p> */}
-                <p className={`section-main-text${isTabletOrMobile ? '-mobile' : ''}`} style = {{color : config.yellow, fontSize : '25px'}}>{config.products}</p>
+                <p className={`section-main-text${isTabletOrMobile ? '-mobile' : ''}`} style={{ color: config.yellow, fontSize: '25px' }}>{config.products}</p>
                 <div className={`section-sub${isTabletOrMobile ? '-mobile' : ''}`}>
                     <p dangerouslySetInnerHTML={{ __html: config.products_desc }}></p>
                 </div>
@@ -138,7 +138,7 @@ function Home() {
                                     value={value}
                                     isTabletOrMobile={isTabletOrMobile}
                                     handleBuyClick={() => { moveToContact() }}
-                                    type = {config.product_type}
+                                    type={config.product_type}
                                 />)
                         })
                     }
@@ -160,7 +160,7 @@ function Home() {
                                     value={value}
                                     isTabletOrMobile={isTabletOrMobile}
                                     handleBuyClick={() => { moveToContact() }}
-                                    type = {config.offer_type}
+                                    type={config.offer_type}
                                 />)
                         })
                     }
@@ -217,9 +217,16 @@ function Home() {
             </div>
 
             <div className={`footer${isTabletOrMobile ? '-mobile' : ''}`}>
-                <div onClick={moveToTop} className={`moveToTop-back${isTabletOrMobile ? '-mobile' : ''}`}>
-                    <img className={`moveToTop${isTabletOrMobile ? '-mobile' : ''}`} src={upArrow} />
+                <div className={`footer-details${isTabletOrMobile ? '-mobile' : ''}`}>
+                    <div onClick={moveToTop} className={`moveToTop-back`}>
+                        <img className={`moveToTop${isTabletOrMobile ? '-mobile' : ''}`} src={upArrow} />
+                    </div>
+                    <div className={`address${isTabletOrMobile ? '-mobile' : ''}`}>
+                        <p><b>Address</b></p>
+                        <p className = "address-full"dangerouslySetInnerHTML={{ __html: config.address }}></p>
+                    </div>
                 </div>
+
                 <div className={`copyright${isTabletOrMobile ? '-mobile' : ''}`}>
                     <p>Copyright @2022 All Rights Reserved</p>
                 </div>
